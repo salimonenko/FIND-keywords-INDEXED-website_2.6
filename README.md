@@ -1,4 +1,9 @@
 # FIND-keywords-INDEXED-website_2.6
+This version adds search results ranking. Site files containing more keyword matches will appear higher (first) in search results, taking into account the search logical expression. This includes fuzzy search.
+
+The search engine requires at least 380 MB of free disk space. When indexing the Russian dictionary, a "metaphones" directory will be created, containing approximately 150,000 subdirectories and files. Subsequently, during the indexing process for the site file contents, the corresponding indexes will be written to this directory. For a large number of site files (10,000 to 50,000), the space occupied by the search system may increase slightly.
+
+Fast FUZZY search for searched (keywords) in site files. Indexing. Improved version of FIND-keywords-INDEXED-website.
 
 В этой версии добавлено ранжирование результатов поиска. Файла сайта, содержащие больше вхождений ключевых слов, будут выше (первыми) в результатах поиска - с учетом логического выражения для поиска. В том числе, для нечеткого поиска.
 
